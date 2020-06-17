@@ -1,3 +1,73 @@
 body{
 	font-family: Helvetica, Arial, sans-serif;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 5vw;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px
+  }
+}
+
+h2 {
+	text-align: center;
+}
+
+.flex {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.profile {
+	flex: 1;
+	text-align: center;
+}
+
+.profile > img {
+	width: 200px;
+	border-radius: 100%;
+	margin: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex > p {
+	flex: 4;
+}
+
+.subtext {
+	color: grey
+}
+
+section {
+	padding: 10px;
+	border: 2px grey;
+	border-style: dotted;
+}
+
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+a:active {
+  text-decoration: none;
+  color: grey;
 }
