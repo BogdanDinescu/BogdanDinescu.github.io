@@ -54,6 +54,20 @@ section {
 	border-style: dotted;
 }
 
+#button {
+    float: right;
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
+}
+
 a:link {
   text-decoration: none;
   color: grey;
